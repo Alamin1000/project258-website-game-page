@@ -1,0 +1,314 @@
+
+
+@media (max-width: 1599px) {
+    .main-menu > ul > li > a {
+        font-size: 18px;
+        width: 180px;
+        height: 54px;
+        margin-bottom: -1px;
+    }
+    .main-menu > ul > li > a::after {
+        height: 1px;
+    }
+    .header-in {
+        border-bottom-width: 1px;
+    }
+    
+
+    .hero__logo img {
+        width: 450px;
+    }
+    .hero-section__inner {
+        padding: 30px 0 30px;
+        min-height: 260px;
+    }
+    .main__sidebar {
+        width: 300px;
+        margin-right: 14px;
+    }
+    .log-form__title h3 {
+        font-size: 18px;
+    }
+    .log-form__title {
+        margin: -20px 35px 0;
+        padding: 6px 0 7px;
+    }
+    .input_x {
+        font-size: 13px;
+        padding: 8px;
+    }
+    .single-input_x {
+        margin: 0 0 10px;
+    }
+    .log-form__main {
+        padding: 20px 20px 13px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .default-button {
+        font-size: 14px;
+        min-width: 170px;
+        min-height: 40px;
+        border-width: 1px;
+    }
+
+    .game-info__title h3 {
+        font-size: 18px;
+    }
+    .game-info__title .player-count {
+        font-size: 26px;
+    }
+    .game-info__title {
+        padding: 3px 16px;
+        width: calc(100% + 10px);
+        margin-left: -5px;
+    }
+    .game-info__m-data__item {
+        padding: 10px 12px 10px;
+    }
+    .game-info__m-data__item h4 {
+        font-size: 12px;
+    }
+    .game-info__m-data__item h3 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .game-info__chart__item__cl1 h2 img {
+        height: 32px;
+    }
+    .game-info__chart__item__cl2 h3 {
+        font-size: 16px;
+    }
+    .game-info__chart__item__cl2 p {
+        font-size: 10px;
+    }
+    .game-info__chart__item {
+        padding: 8px;
+    }
+
+
+    .table-str1 table td {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .table-str1-1 td:first-child {
+        width: 53px;
+    }
+    .table__bottom-buttons {
+        margin-bottom: -20px;
+    }
+    .social__item img {
+        width: 60px;
+    }
+    .social {
+        gap: 18px;
+    }
+    .socials-wrap {
+        margin: 35px 0 0;
+    }
+
+
+    .slider-dots1 .owl-dot {
+        --border: 1px;
+        height: 22px;
+        width: 22px;
+        font-size: 15px !important;
+    }
+    .banner-slide__title .right h3 {
+        font-size: 25px;
+    }
+    .banner-slide__title .right p {
+        font-size: 14px;
+    }
+    .banner-slide__title .left h2 img {
+        height: 47px;
+    }
+    .banner-slide__title .left {
+        margin: 0 14px 0 0;
+    }
+    .banner-slide__title {
+        padding: 15px 25px;
+    }
+    .banner-slide__buttons {
+        margin: 20px 30px 0;
+    }
+    .banner-slide {
+        min-height: 235px;
+        padding: 70px 0 20px;
+    }
+    .banner-slider .owl-dots {
+        top: 25px;
+        left: 25px;
+    }
+    .banner-slide .character {
+        width: auto !important;
+        right: 50px;
+        max-height: 90%;
+    }
+
+    .news-section__header__left .c img {
+        height: 45px;
+    }
+    .news-section__header__left .t h2 {
+        font-size: 25px;
+    }
+    .news-section__header__left .t p {
+        font-size: 15px;
+    }
+    .news-section__header {
+        padding: 0 0 10px;
+        border-bottom-width: 1px;
+    }
+    .news-section {
+        padding: 22px 22px 20px;
+    }
+    .news__title h3 {
+        font-size: 25px;
+    }
+    .news__title .date {
+        font-size: 18px;
+        width: 150px;
+        height: 35px;
+        border-bottom-width: 1px;
+    }
+    .news__title {
+        margin: 0 0 13px;
+    }
+    .news-s__body p {
+        font-size: 15px;
+    }
+    .news-single {
+        padding: 14px 0 0 20px;
+        border-bottom-width: 1px;
+    }
+    .news__fl-btn {
+        bottom: 10px;
+        right: 20px;
+    }
+    .pagination__item {
+        --border: 1px;
+        height: 22px;
+        width: 22px;
+        font-size: 15px !important;
+    }
+    .pagination {
+        margin: 20px 0 0;
+        gap: 20px;
+    }
+
+
+    .footer__menu ul li a {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .footer__menu ul {
+        gap: 25px;
+    }
+    .copy-right {
+        font-size: 13px;
+    }
+    .footer-section {
+        padding: 55px 0 50px;
+    }
+
+}
+
+
+@media (max-width: 1199px) {
+ 
+}
+
+
+@media (max-width: 991px) {
+    .main-menu > ul > li > a {
+        width: 120px;
+    }
+
+
+    .main-section__inner {
+        flex-wrap: wrap;
+    }
+    .main__content {
+        margin: 0 0 35px;
+        width: 100%;
+        order: -1;
+    }
+    .main__sidebar {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-menu > ul > li > a {
+        width: 90px;
+        font-size: 16px;
+    }
+    .hero-section__inner {
+        padding: 25px 0 20px;
+        min-height: 140px;
+    }
+
+
+    .banner-slide .character {
+        display: none !important;
+    }
+    .banner-slide__title .right h3 {
+        font-size: 20px;
+        margin: 0 0 3px;
+    }
+    .banner-slide__title .left h2 img {
+        height: 38px;
+    }
+    .banner-slide__title .right p {
+        font-size: 12px;
+    }
+
+    .default-button {
+        font-size: 13px;
+        min-width: 120px;
+        min-height: 37px;
+    }
+    .news-section__header__left .c img {
+        height: 32px;
+    }
+    .news-section__header__left .t h2 {
+        font-size: 20px;
+    }
+    .news-section__header__left .t p {
+        font-size: 13px;
+    }
+    .news-section__header__left .c {
+        margin: 0 10px 0 0;
+    }
+    .news-section {
+        padding: 13px 12px 15px;
+    }
+    .news-single {
+        padding: 10px 0 0 5px;
+        border-bottom-width: 1px;
+    }
+    .news__title h3 {
+        font-size: 18px;
+    }
+    .news__title .date {
+        font-size: 15px;
+        width: 110px;
+        height: 25px;
+    }
+    .news-s__body p {
+        font-size: 14.5px;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 390px) {
+ 
+}
