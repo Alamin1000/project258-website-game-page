@@ -68,7 +68,7 @@ body {
   background: url('images/hero-image.png');
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: contain;
+  background-size: 100% auto;
   background-color: #121212;
   color: #fff;
 }
@@ -873,8 +873,16 @@ p:last-child{
   bottom: 15px;
   right: 40px;
 }
+.news-single.active .news__fl-btn {
+  display: none;
+}
 .news-s__body {
-
+	height: 353px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.news-s__body__inner {
+  padding: 0 0 20px;
 }
 .news-s__body p {
   font-size: 17.87px;
