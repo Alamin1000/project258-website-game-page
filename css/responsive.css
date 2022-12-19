@@ -301,6 +301,11 @@
     .news-s__body p {
         font-size: 14.5px;
     }
+
+
+    .news-s__body__inner {
+        padding: 0 0 60px;
+      }
 }
 
 

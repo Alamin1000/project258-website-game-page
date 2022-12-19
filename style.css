@@ -72,7 +72,7 @@ body {
   background-color: #121212;
   color: #fff;
 }
-a, a:active, a:focus, a:active, a:hover {
+a, a:active, a:active, a:hover {
   text-decoration:none !important;
   color: inherit;
 }
@@ -845,6 +845,9 @@ p:last-child{
   width: 100%;
   height: 89px;
 }
+.news-single.active .glow {
+  display: none;
+}
 .news__title {
   margin: 0 0 20px;
   display: flex;
@@ -873,16 +876,13 @@ p:last-child{
   bottom: 15px;
   right: 40px;
 }
-.news-single.active .news__fl-btn {
-  display: none;
-}
 .news-s__body {
 	height: 353px;
   overflow: hidden;
   transition: 0.3s;
 }
 .news-s__body__inner {
-  padding: 0 0 20px;
+  padding: 0 0 75px;
 }
 .news-s__body p {
   font-size: 17.87px;
